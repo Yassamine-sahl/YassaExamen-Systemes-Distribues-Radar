@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/YassaExamen-Systemes-Distribues-Radar.iml" filepath="$PROJECT_DIR$/.idea/YassaExamen-Systemes-Distribues-Radar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-api/common-api.iml" filepath="$PROJECT_DIR$/common-api/common-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/immatriculation-service/immatriculation-service.iml" filepath="$PROJECT_DIR$/immatriculation-service/immatriculation-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/infractions-service/infractions-service.iml" filepath="$PROJECT_DIR$/infractions-service/infractions-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/radar-service/radar-service.iml" filepath="$PROJECT_DIR$/radar-service/radar-service.iml" />

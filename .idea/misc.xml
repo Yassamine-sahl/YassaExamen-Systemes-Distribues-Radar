@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/radar-service/pom.xml" />
         <option value="$PROJECT_DIR$/immatriculation-service/pom.xml" />
         <option value="$PROJECT_DIR$/infractions-service/pom.xml" />
+        <option value="$PROJECT_DIR$/common-api/pom.xml" />
       </list>
     </option>
   </component>
