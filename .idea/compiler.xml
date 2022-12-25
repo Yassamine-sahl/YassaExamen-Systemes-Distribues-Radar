@@ -7,14 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common-api" />
+        <module name="eureka-service" />
         <module name="radar-service" />
         <module name="infractions-service" />
         <module name="immatriculation-service" />
+        <module name="gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common-api" target="1.8" />
-      <module name="gateway" target="17" />
+      <module name="eureka-service" target="17" />
+      <module name="gateway" target="1.8" />
       <module name="immatriculation-service" target="1.8" />
       <module name="infractions-service" target="1.8" />
       <module name="radar-service" target="17" />
@@ -23,6 +26,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common-api" options="-parameters" />
+      <module name="eureka-service" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="immatriculation-service" options="-parameters" />
       <module name="infractions-service" options="-parameters" />
