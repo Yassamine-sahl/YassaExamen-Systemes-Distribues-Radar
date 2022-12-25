@@ -13,7 +13,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="common-api" target="17" />
+      <module name="common-api" target="1.8" />
       <module name="immatriculation-service" target="1.8" />
       <module name="infractions-service" target="1.8" />
       <module name="radar-service" target="1.8" />
