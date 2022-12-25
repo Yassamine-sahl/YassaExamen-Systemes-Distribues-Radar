@@ -1,15 +1,26 @@
 package ma.enset.commonapi.events;
 
-import lombok.Getter;
-
 public class RadarCreatedEvent extends BaseEvent<String> {
-    @Getter private double maxSpeed;
-    @Getter private double latitude;
-    @Getter private double longitude;
-    public RadarCreatedEvent(String id, double maxSpeed, double latitude, double longitude) {
+    private double vitesseMax;
+    private double longtitude;
+    private double latitude;
+
+    public RadarCreatedEvent(String id, double vitesseMax, double longtitude, double latitude) {
         super(id);
-        this.maxSpeed = maxSpeed;
+        this.vitesseMax = vitesseMax;
+        this.longtitude = longtitude;
         this.latitude = latitude;
-        this.longitude = longitude;
+    }
+
+    public double getVitesseMax() {
+        return vitesseMax;
+    }
+
+    public double getLongtitude() {
+        return longtitude;
+    }
+
+    public double getLatitude() {
+        return latitude;
     }
 }

@@ -1,13 +1,13 @@
 package ma.enset.commonapi.commands;
 
-public class CreateVehiculeCommand extends BaseCommand<String>{
+public class UpdateVehiculeCommand extends BaseCommand<String>{
     private String matricule;
     private String marque;
     private String modele;
     private String puissanceFiscale;
     private String proprietaireId;
 
-    public CreateVehiculeCommand(String id, String matricule, String marque, String modele, String puissanceFiscale, String proprietaireId) {
+    public UpdateVehiculeCommand(String id, String matricule, String marque, String modele, String puissanceFiscale, String proprietaireId) {
         super(id);
         this.matricule = matricule;
         this.marque = marque;

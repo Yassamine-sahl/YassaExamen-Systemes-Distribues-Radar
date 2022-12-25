@@ -10,7 +10,6 @@
         <module name="radar-service" />
         <module name="infractions-service" />
         <module name="immatriculation-service" />
-        <module name="gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

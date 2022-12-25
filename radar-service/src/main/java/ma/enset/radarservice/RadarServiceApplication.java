@@ -25,5 +25,6 @@ public class RadarServiceApplication {
 
         xStream.allowTypesByWildcard(new String[]{"ma.enset.**"});
         return xStream;
+
     }
 }
